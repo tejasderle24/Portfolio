@@ -2,7 +2,12 @@ import {
   Footer,
   Navbar
 } from './components'
-import { AboutSection, HeroSection, SkillsSection } from './pages'
+import {
+  AboutSection,
+  HeroSection,
+  ProjectsSection,
+  SkillsSection
+} from './pages'
 
 function App() {
   return (
@@ -10,6 +15,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <SkillsSection />
+      <ProjectsSection />
       <AboutSection />
       <Footer />
     </>
