@@ -4,6 +4,7 @@ import {
 } from './components'
 import {
   AboutSection,
+  ContactSection,
   HeroSection,
   ProjectsSection,
   SkillsSection
@@ -17,6 +18,7 @@ function App() {
       <SkillsSection />
       <ProjectsSection />
       <AboutSection />
+      <ContactSection />
       <Footer />
     </>
   )
