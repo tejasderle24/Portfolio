@@ -2,13 +2,15 @@ import {
   Footer,
   Navbar
 } from './components'
-import { HeroSection } from './pages'
+import { AboutSection, HeroSection, SkillsSection } from './pages'
 
 function App() {
   return (
     <>
       <Navbar />
       <HeroSection />
+      <SkillsSection />
+      <AboutSection />
       <Footer />
     </>
   )

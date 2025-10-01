@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { FaArrowDown, FaEnvelope } from 'react-icons/fa';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
-import PROFILE_PI from '../assets/profile-image.jpg';
+import PROFILE_PI from '../assets/profile-image.png';
 
 const HeroSection = () => {
   const { scrollY } = useScroll();
